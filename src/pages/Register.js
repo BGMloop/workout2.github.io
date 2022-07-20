@@ -31,7 +31,11 @@ const Register = () => {
                     <label class="block text-gray-700 text-sm font-bold mb-2" for="password">
                         Password
                     </label>
+<<<<<<< HEAD
                     <input class="shadow appearance-none border border-red-500 rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline" id="password" type="password" placeholder="Enter" />
+=======
+                    <input class="shadow appearance-none border border-red-500 rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline" id="password" type="password" placeholder="Enter password" />
+>>>>>>> fccd2f7cd9839db330e8815a2702491d18fe0af8
                     <p class="text-red-500 text-xs italic">Please choose a password.</p>
                 </div>
                 <div class="justify-center mr-10">
