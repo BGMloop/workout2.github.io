@@ -19,7 +19,7 @@ function App() {
         
           <Route path="/register" component={Register} />
           <Route path="/login" component={Login} />
-          <Route path="dashboard" component={Dashboard} />
+          <Route path="/dashboard" component={Dashboard} />
           <Route exact path="/" component={Home} />
         
       </StyledContainer>
