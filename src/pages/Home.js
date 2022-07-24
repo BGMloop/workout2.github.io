@@ -28,7 +28,7 @@ const Home = () => {
             </StyledSubTitle>
             <div className='text-8xl'>
                 {/* //background */}
-                <img src="https://images.pexels.com/photos/302743/pexels-photo-302743.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" class="w-[4000px] h-auto" alt="..." />
+                <img src="https://th.bing.com/th/id/R.2d5694abbad70649c13dc7f02a4ed263?rik=mHGY32JTZagPLA&pid=ImgRaw&r=0" class="w-[4000px] h-auto" alt="..." />
                 <div className='text-center' >
                 Welcome to Dice Workout!
                 </div>
