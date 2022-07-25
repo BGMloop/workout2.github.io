@@ -2,6 +2,8 @@ import Home from './pages/Home.js';
 import Login from './pages/Login.js';
 import Register from './pages/Register.js'
 import Dashboard from './pages/Dashboard.js';
+import Contact from './pages/Contact'
+import About from './pages/About'
 
 
 // Styled components
@@ -21,6 +23,9 @@ function App() {
           <Route path="/login" component={Login} />
           <Route path="/dashboard" component={Dashboard} />
           <Route exact path="/" component={Home} />
+          <Route path= '/contact' component={Contact} />
+          <Route path= '/about' component={About} />
+
         
       </StyledContainer>
       </Router>

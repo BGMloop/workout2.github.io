@@ -13,9 +13,13 @@ import { FiMail, FiLock, FiUser, FiCalendar }from 'react-icons/fi';
 
 // Loader
 import loader from 'react-loader-spinner';
+import Navbar from "./Navbar";
 
 const Register = () => {
     return (
+        <div>
+            <Navbar />
+            <div />
 		<div class="flex justify-center w-screen h-screen">
             <form class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4 w-[600px] h-[300px]">
             <div className='text-8xl'></div>
@@ -45,6 +49,7 @@ const Register = () => {
                     </button>
                 </div>
             </form>
+        </div>
         </div>
 	)
 }

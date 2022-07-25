@@ -11,6 +11,7 @@ import {FiMail, FiLock}from 'react-icons/fi';
 
 //loader 
 import Loader from 'react-loader-spinner';
+import Navbar from "./Navbar";
 
 const Login = () => {
     return (
@@ -20,9 +21,9 @@ const Login = () => {
                  <div className="relative mt-4 bg-white shadow-orange-500 sm:rounded-lg text-left">
                     <div className="h-2 bg-indigo-400 rounded-t-md"></div>
                     <div className="py-6 px-8">
-                        <label className="block mt-4 font-semibold">Username or Email</label>
+                        <label className="block mt-4 font-semibold text-black">Username or Email</label>
                         <input type="text" placeholder="Username" className="border w-full h-4 px-32 py-2 mt-2 hover:outline-none focus:ring-2 focus:ring-indigo-700 rounded-md"/>
-                        <label className="block mt-4 font-semibold">Password</label>
+                        <label className="block mt-4 font-semibold text-black">Password</label>
                         <input type="password" placeholder="Password" className="border w-full h-4 px-32 py-2 mt-2 hover:outline-none focus:ring-2 focus:ring-indigo-700 rounded-md"/>
                         <div className="justify-center mr-10">
                         <Link to="/dashboard">
