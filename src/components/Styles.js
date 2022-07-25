@@ -79,6 +79,7 @@ export const ButtonGroup = styled.div`
     justify-conent: space-around;
     flex-direction: row;
     margin-top: 25px;
+    gap: 1rem;
 `;
 
 // I
