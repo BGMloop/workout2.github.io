@@ -13,7 +13,7 @@ import {FiMail, FiLock}from 'react-icons/fi';
 import Loader from 'react-loader-spinner';
 import Navbar from "./Navbar";
 
-const Login = () => {
+const Login = async () => {
     return (
         <div className="min-h-screen bg-gray-200 text-gray-700 antialiased py-6 flex-col justify-center sm:py-12">
             <div className="relative py-3 sm:max-w-xl mx-auto text-center">

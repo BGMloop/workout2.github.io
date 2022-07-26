@@ -15,7 +15,7 @@ import { FiMail, FiLock, FiUser, FiCalendar }from 'react-icons/fi';
 import loader from 'react-loader-spinner';
 import Navbar from "./Navbar";
 
-const Register = () => {
+const Register = async () => {
     return (
         <div>
             <Navbar />
@@ -25,6 +25,12 @@ const Register = () => {
             <div className='text-8xl'></div>
                 {/* //background */}
                 <img src="https://images.pexels.com/photos/302743/pexels-photo-302743.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" class="w-[4000px] h-auto" alt="..." />
+                <div class="mb-4">
+                    <label class="block text-gray-700 text-sm font-bold mb-2" for="email">
+                        Email
+                    </label>
+                    <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="username" type="text" placeholder="Username" />
+                </div>
                 <div class="mb-4">
                     <label class="block text-gray-700 text-sm font-bold mb-2" for="username">
                         Username
@@ -43,7 +49,21 @@ const Register = () => {
                     <button class="bg-blue-500 mr-4 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="button">
                         Sign In
                     </button>
-                    </Link>
+                    </Link>00
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    3.3...............................
                     <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="button">
                         Register
                     </button>

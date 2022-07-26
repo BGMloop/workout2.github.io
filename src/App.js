@@ -13,8 +13,13 @@ import {StyledContainer} from "./components/Styles";
 import "react-loader-spinner/dist/loader/css/react-spinner-loader.css";
 
 import { BrowserRouter as Router, Route,}from 'react-router-dom';
+import { useState } from 'react';
 
 function App() {
+  const [registerEmail, setRegisterEmail] = useState("");
+  const [registerPassword, setRegisterPassword] = useState("");
+  const [loginEmail, setLoginEmail] = useState("");
+  const [loginPassword, setLoginPassword] = useState("");
   return (
     <Router>
       <StyledContainer>
