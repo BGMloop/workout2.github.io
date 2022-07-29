@@ -21,9 +21,10 @@ const Register = () => {
         <h1>User Registration</h1>
       <form >
         <label>Username</label>
-        <input type='text' name='user_name' placeholder= 'username' />
+        <input type='text' name='username' placeholder= 'username' />
         <label>Email</label>
         <input type='text' name='email' placeholder='email' />
+        <label>Password</label>
         <input type='text' name= 'password' placeholder='password' />
         <button className='btn'>Register</button>
       </form>
