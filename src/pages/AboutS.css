@@ -4,26 +4,14 @@
     font-family: 'Outfit', 'Josefin Sans', sans-serif;
     box-sizing: border-box;
 }
-
-.content h5 {
-    font-size: 2rem;
-    color: #fff;
-    text-align: center;
-}
-
-.content {
-    text-align: center;
-
-}
-
-.content p{
-    text-align: center;
-}
-
 .about{
     width: 100%;
     padding: 78px 0px;
     background-color: #191919;
+}
+.about img{
+    height: auto;
+    width: 420%;
 }
 .about-text{
     width: 550px;
